@@ -1,3 +1,6 @@
-raio = float(input("digite o raio do circulo:"))
-area = math.pi*(raio**2)
-print(f"a area do circulo com raio{raio} é: {area:.2f}")
+import math
+
+# Programa para calcular a área de um círculo
+raio = float(input("Digite o raio do círculo: "))
+area = math.pi * raio ** 2
+print("A área do círculo é:", area)
