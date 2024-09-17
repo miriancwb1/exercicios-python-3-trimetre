@@ -1,7 +1,8 @@
-def calcular_media_de_tres_numeros():
-    num1= float(input("digite o primeiro numer:"))
-    num2= float(input("digite o segundo numero:"))
-    num3= float(input("digite o segundo numero:"))
+# Solicita ao usuário para informar a idade
+idade = int(input("Digite sua idade: "))
 
-    media = (num1 + num2 + num3)/3
-    print(f"A media é:{media}")
+# Verifica se a pessoa é maior ou menor de idade
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
